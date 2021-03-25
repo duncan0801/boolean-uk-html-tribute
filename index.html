@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Tribute Page</title>
+    <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
     <!-- Today we're building a simple tribute page to someone or something you love! Some ideas:
@@ -29,48 +30,71 @@ Challenge 2
 Add a links to different websites ie. wikipedia page
 Add links to a different parts of the page!
 Give it as much flair as you can! -->
-    <div>
-      <h1>
-        The Rubber Duck (a.k.a 'The Rubber Ducky')
-      </h1>
+
+    <div id="title&Image">
+      <div id="title">
+        <h1>
+          The Rubber Duck
+        </h1>
+        <h2>
+          (a.k.a 'The Rubber Ducky')
+        </h2>
+      </div>
+      <div id="imageDiv">
+        <img
+          src="http://wallpaperstock.net/rubber-ducks-taking-bath_wallpapers_37361_852x480.jpg"
+          alt=""
+          id="titleImage"
+        />
+      </div>
     </div>
 
-    <div>
-      <h2>Rubber Duck Bio</h2>
+    <div id="bioDiv">
+      <h3>Rubber Duck Bio</h3>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        Necessitatibus, delectus. Ab provident, fuga labore sint aspernatur
-        reprehenderit hic quia facere, praesentium eaque molestias obcaecati
-        fugiat perspiciatis assumenda minima quis corrupti.
+        The rubber duck is a cool and often misunderstood being. They are often
+        taught things by software engineers, but are never really asked what
+        they want to learn.
       </p>
     </div>
 
-    <div>
-      <h2>Rubber Duck In Pop Culture</h2>
+    <div id="popCultureDiv">
+      <h3>Rubber Duck In Pop Culture</h3>
       <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-        culpa vero, blanditiis qui, quae dicta reiciendis, architecto sed et
-        deleniti libero non natus. Doloribus ipsam quam corporis cum deserunt
-        facere!
+        Humans have also regularly forced a rubber duck into bathing with them
+        against the Rubber Duck's own will. That's ducked up.
       </p>
     </div>
-    <div>
-      <h2>Ethical Dilemmas Pertaining to The Rubber Duck</h2>
+    <div id="ethicalDilemmaDiv">
+      <h3>Ethical Dilemmas Pertaining to The Rubber Duck</h3>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque magni
-        nostrum assumenda, quo magnam, ex neque quis id, maxime ipsa impedit
-        adipisci deleniti ab architecto aperiam. Nostrum sapiente pariatur
-        omnis!
+        Humans should ask Rubber Ducks what <strong>the duck's want</strong>.
+        More laws and rights need to be made for Rubber Ducks.
       </p>
     </div>
-    <div>
-      <h2>Popular Incarnations</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse dolorem
-        itaque sapiente, dolores vero tempore quidem necessitatibus debitis
-        corporis asperiores nisi possimus corrupti inventore aspernatur velit,
-        aliquid optio in aliquam?
-      </p>
+    <div id="incarnationsDiv">
+      <h3>Popular Incarnations</h3>
+      <div>
+        <img
+          src="https://images-na.ssl-images-amazon.com/images/I/31tkCSZqN3L._AC_.jpg"
+          alt="The Duck Off"
+          id="duckOffImg"
+        />
+      </div>
+      <div>
+        <img
+          src="data:image/jpeg;base64,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"
+          alt="The Donald Duck"
+          id="donaldImg"
+        />
+      </div>
+      <div>
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShhDEG7wNvkhMY78S30og-S8ckWF6lDh5KrA&usqp=CAU"
+          alt="Royal Duck"
+          id="RoyalDuckImg"
+        />
+      </div>
     </div>
   </body>
 </html>
