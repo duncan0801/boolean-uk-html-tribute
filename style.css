@@ -1,3 +1,26 @@
 body {
   font-family: sans-serif;
+  background-color: aqua;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+h2 {
+  text-align: center;
+  font-style: italic;
+  font-size: 20px;
+}
+
+#title {
+  /* border: 5px solid white; */
+}
+
+#titleImage {
+  border-radius: 5%;
+  display: block;
+  height: auto;
+  margin: auto;
+  width: auto;
 }
